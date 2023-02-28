@@ -632,16 +632,19 @@ h3.my-profession {
 .portfolio .portfolio-item {
     flex: 0 0 33.33%;
     max-width: 33.33%;
-    margin-bottom: 30px;
+    max-height: 33.33%;
+     
 }
 .portfolio .portfolio-item-inner {
     border: 6px solid var(--bg-black-100);
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    
 }
 .portfolio .portfolio-item-inner .portfolio-img img {
     width: 100%;
+    box-sizing: border-box;
     display: block;
 }
 /*_______________________________contact_______________________________*/
