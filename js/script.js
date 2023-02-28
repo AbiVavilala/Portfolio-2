@@ -61,3 +61,9 @@ const nav = document.querySelector(".nav"),
             }
         }
 
+        function displayMessage() {
+            alert("Your form has been successfully submitted!");
+          }
+          document.getElementById("myForm").addEventListener("submit", displayMessage);
+
+          
